@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    color: #FFFF00;
+    color: rgb(225,255,0)
+        
+}
+#address {
+    background: #ff9;
+}
+.gladiolus {
+    border-left: 3px dashed green;
+    
+}
+.container {
+    background: red;
+}

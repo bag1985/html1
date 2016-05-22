@@ -1,0 +1,302 @@
+HTML
+
+index.html
+
+[жирный]привет[/жирный]
+
+<strong>привет</strong>
+
+http://w3.org/tr/html
+http://validator.w3.org
+
+Все HTML-элементы
+https://www.w3.org/TR/html/index.html#elements-1
+
+<div id="article"></div>
+<div id="nav"></div>
+<div class="section"></div>
+
+htmllab.ru
+1. повторить материал
+2. доделать страницу (можно подглядеть в готовый вариант)
+3*. выполнить разметку других страниц. 
+4. Создать 3 страницы своего сайта
+
+День 2
+
+anchor
+
+Ссылка на место внутри документа
+<a href="#company">Нажми меня</a>
+...
+<p id="company">текст текст текст </p>
+
+<a href="#p1">Lorem ipsum dolor.<br /></a>
+<a href="#p2">Dolore, odit! Cumque!<br /></a>
+<a href="#p3">Quibusdam, odit, voluptatem!<br /></a>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<p id="p1">111 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellendus mollitia, similique, nobis quae soluta quaerat ducimus, ex, molestiae at odit reiciendis eveniet harum sed maxime! Dicta tenetur qui similique libero exercitationem, distinctio aliquid minus deserunt quisquam asperiores recusandae non quos hic aliquam temporibus amet mollitia perspiciatis maiores dolore, harum ducimus maxime nam officia ad illo. Animi possimus doloremque asperiores dolores itaque natus similique assumenda molestias facere distinctio porro, aut accusamus minima sunt, impedit doloribus? Delectus unde rerum ex blanditiis magnam aspernatur, laboriosam expedita ad quos minima! Voluptas, nulla eaque ratione ad dolor voluptatibus, obcaecati, molestias ab vitae amet quam.</p>
+<p id="p2"> 222 Odit doloremque, a sit laborum aliquam, eos debitis assumenda qui reprehenderit ratione odio exercitationem fuga doloribus unde aspernatur! Ea hic eveniet fugit harum, obcaecati recusandae, aliquid quisquam numquam! Maiores molestias hic eligendi, quas possimus eaque facilis fuga dolor delectus, consequuntur consectetur corrupti, necessitatibus est eos modi unde, accusantium. Doloremque cupiditate, quia. Quidem tenetur recusandae, esse distinctio, veritatis alias nulla ad cum minima laudantium sit impedit voluptatibus tempora. Dolorum voluptatibus beatae harum dicta reprehenderit hic, doloremque pariatur eos minus, quo veniam. Optio a expedita, laudantium suscipit quia reiciendis dicta? Aut fuga cum odit veniam rem dignissimos mollitia ea recusandae quasi dolor.</p>
+<p id="p3">33 Sit odio, dolor, animi voluptate quae eligendi fugit quidem molestias maxime numquam optio modi deserunt recusandae maiores adipisci quisquam cum id porro incidunt atque commodi mollitia, enim, veniam. Corporis dolores sed commodi consequuntur aspernatur, molestiae eum odio error, cum quod nemo, in. Eveniet vero fugit itaque voluptas et dolore nisi tenetur officia dolor libero reprehenderit omnis asperiores unde accusamus quia facilis, amet eius laudantium! Perferendis, totam. Molestias porro totam cum libero aliquid? Atque aspernatur quae, pariatur hic voluptate iure ratione suscipit consequuntur alias nesciunt et deleniti, numquam minima dignissimos distinctio reprehenderit itaque molestiae natus, quidem eaque nihil reiciendis modi. Ipsa!</p>
+
+
+
+
+Ссылка на другой документ
+<a href="about.html">Нажми меня</a>
+
+Ссылка на внешний документ
+<a href="http://specialist.ru" target="_blank" >Нажми меня</a>
+
+
+index.html
+Ссылка на документ в подпапке
+<a href="folder/about.html">Нажми меня</a>
+
+about.html
+Ссылка на документ уровнем выше
+<a href="../index.html">Нажми меня</a>
+
+
+a.html
+Ссылка на документ в соседней папке
+<a href="../folder/b.html">Нажми меня</a>
+
+/folder/b.html
+
+Ссылка на емейл
+<a href="mailto:some@some.ru">Напиши мне..</a>
+
+<br />
+<img src="moyo_foto.jpg" />
+<img src="f/moyo_foto.jpg" />
+<img src="../moyo_foto.jpg" />
+<img src="../../moyo_foto.jpg" />
+<img src="http://some.ru/moyo_foto.jpg" />
+
+CSS 
+
+color:red цвет текста
+background: yellow; фон элемента
+
+
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+0 1 2 3 4 5 6 7 8 9  A  B  C  D  E  F 10 11 12
+
+#FF0000 - красный цвет
+#FFFF00 - желтый цвет
+
+div#back{}
+h2#back{}
+
+div#back{
+ color: green;
+}
+#next{
+ color: red;
+}
+<div id="back"><p id="next"> рпвлоап </p></div>
+
+span { }
+span#some{}
+span.some{}
+span.some.next{}
+
+<span class="some next"></span>
+<span class="next some"></span>
+
+p span.some{}
+#next p span.some{}
+.some #next .p.span#id em {}
+
+div p {}
+<div>
+  <p></p>
+</div>
+<div>
+  <section>
+    <p></p>
+  </section>
+</div>
+
+1. Создать и подключить на своих страницах CSS-файл
+2. Оформить страницы свойствами
+
+color
+background
+border
+margin: 20px;
+padding: 10px 30px;
+font: 30px Arial;
+
+
+День 3
+div > p{
+  background:#ff9
+}
+
+<div>
+  <p>cfhfghgfh</p>
+  <section>
+    <p>dghfghgfh</p>
+  </section>
+</div>
+
+p[data-specialist] { color:red}
+p[data-specialist="some"] { color:green}
+p[class~="some"] { color:green}
+
+<p class="nxet some firefox">text</p>
+
+div[lang|="en"] { color:red}
+p[class*="ui"] { color:green}
+a[href^="http"] { color:green}
+a[href$=".rar"] { color:green}
+
+Пример 1
+div[class*=me]{
+  background-color: #f63;
+}
+div[id^=i]{font-size:30px}
+div[id$=fo]{border-radius:30px}
+<div class="some next kasha" id="info">fghfgh</div>
+<div class="next kasha">fghfgh</div>
+<div >fghfgh</div>
+
+
+Пример 20px
+/*p:first-child{background: #ff9;}
+p:last-child{ background: #f9f;}
+p:nth-child(2){ background: lime;}*/
+
+/*p:nth-child(2n+1){ background: lime;}*/
+p:nth-child(even){ background: lime;}
+p:nth-child(odd){ background: yellow;}
+
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, adipisci.</p>
+<p>Laboriosam aspernatur aliquid ducimus sapiente et sit quidem accusantium voluptatum.</p>
+<p>Nihil ex, ut cum cupiditate ipsa adipisci facere placeat modi.</p>
+<p>Aut laboriosam ex culpa explicabo dolore voluptatem expedita eius dolor?</p>
+<p>Tempora ut fugit sint totam, voluptatem aspernatur placeat nihil ducimus.</p>
+<p>Dolores quaerat, dolor voluptates quam eaque labore rerum adipisci beatae.</p>
+<p>Culpa ducimus error natus a fuga alias temporibus, quod incidunt?</p>
+<p>Perspiciatis repudiandae, tenetur voluptas ullam in asperiores assumenda ad magnam?</p>
+<p>Voluptatem culpa maiores nihil dolor, dolore natus amet ipsam eos!</p>
+<p>Tempore animi quidem fugit, molestias, eum numquam quam alias dolores.</p>
+</div>
+
+
+Пример 3
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis cupiditate, eos dicta temporibus hic soluta molestiae accusamus corporis labore explicabo placeat aperiam optio ex, minus illum earum eligendi magni enim delectus eum fugiat.</p>
+
+
+/*p:first-line{
+  font-size: 2em;
+}
+p:first-letter{
+  color: #f00;
+}*/
+
+p:before{
+  content:"Внимание. "
+}
+
+p:after{
+  content:"Читать... ";
+  color: #00f;
+  text-decoration: underline;
+  cursor:pointer
+}
+
+
+Работа с текстом и фоном
+p{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: normal;
+  /*font-style:italic;
+  font-variant: small-caps;*/
+  /*xt-indent: 100px;*/
+  word-spacing: 20px;
+  letter-spacing: -2px;
+  line-height: 20x;
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+ /* text-decoration: line-through overline underline;*/
+  text-shadow: 10px -5px 7px gray;
+  text-shadow: 0 0 7px #369;
+}
+body{
+  background-image: url(http://htmllab.ru/wp-content/uploads/2016/03/antarctic-pingvin.png);
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+ /* background-size: 100%;
+  background-size: cover;*/
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
